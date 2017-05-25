@@ -2,7 +2,7 @@
 #include "google-maps-device-locator.h"
 
 #if Wiring_Cellular
-# include "CellularHelper.h"
+#include "CellularHelper.h"
 #endif
 
 static char requestBuf[256];
